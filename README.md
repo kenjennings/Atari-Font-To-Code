@@ -84,20 +84,35 @@ diff                   == Outputs the character bytes only if they differ from
                           TurboBasic XL, and OSS BASIC XL. (The hex values and
                           memory move to copy the character set in lines 100
                           to 120 are not compatible with Atari BASIC.):
+                          
                           100 Rem Copy Rom (Eset) To RAM (Cset)
+                          
                           110 Eset = $e000: Cset = $9000
+                          
                           120 Move Eset, Cset, $0400
+                          
                           130 Rem Read the character index
+                          
                           140 Read Cindex
+                          
                           150 Rem Exit if index is end of data
+                          
                           160 If Cindex = -1 Then Goto 240
+                          
                           170 Rem Determine character location
+                          
                           180 Char = Cset + (Cindex * 8 )
+                          
                           190 Rem Read/Store 8 bytes
+                          
                           200   For Loop = Char to Char + 7
+                          
                           210   Read Cdata: Poke Loop, Cdata
+                          
                           220   Next Loop
+                          
                           230 Goto 140: Rem Read next index
+                          
                           240 Rem Program Continues Here...
 
 rom                num == Specifies the ROM page to start at (0 to 3). For
