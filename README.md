@@ -152,13 +152,21 @@ bitscomment            == After the block of character bytes output a series
                           "pixelsize".
                           Example shown for control character 0x7b as
                           glyphtype 2 in C format for hex data:
+                          
                           /* 0x00:  . . . . . . . .  */
+                          
                           /* 0x18:  . . . # # . . .  */
+                          
                           /* 0x3c:  . . # # # # . .  */
+                          
                           /* 0x7e:  . # # # # # # .  */
+                          
                           /* 0x7e:  . # # # # # # .  */
+                          
                           /* 0x18:  . . . # # . . .  */
+                          
                           /* 0x3c:  . . # # # # . .  */
+                          
                           /* 0x00:  . . . . . . . .  */
 
 glyphtype          num == Specify the glyph rendering type when the bitmap
