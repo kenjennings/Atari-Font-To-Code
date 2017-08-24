@@ -8,9 +8,13 @@ Convert Atari 8-bit font to BASIC, C, and Assembly source
 atf2code
 
 $Id: main.c,v 1.17 2014/04/04 18:37:10 kjenning Exp $
+
 $Id: globals.c,v 1.13 2014/04/08 17:28:43 kjenning Exp $
+
 $Id: myglobals.c,v 1.6 2014/04/04 17:00:07 kjenning Exp $
+
 $Id: E000.c,v 1.3 2014/03/18 19:44:23 kjenning Exp $
+
 $Id: io.c,v 1.7 2014/03/31 20:53:36 kjenning Exp $
 
 Dump Atari font (1024 or 512 byte) files as data statements for a programming
