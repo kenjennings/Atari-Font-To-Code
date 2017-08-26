@@ -1,4 +1,4 @@
-1000 REM Page 0xE0.  Chars 0 to 31 -- Symbols, numbers
+1000 REM Page 0xE0.  Chars 0 to 31 -- Symbols, numbers 
 1001 REM Char $00: SPACE  
 1002 DATA $00,$00,$00,$00,$00,$00,$00,$00
 1003 REM $00: . . . . . . . . 
