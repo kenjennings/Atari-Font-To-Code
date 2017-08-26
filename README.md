@@ -1,9 +1,5 @@
 # Atari-Font-To-Code
-Convert Atari 8-bit font to BASIC, C, and Assembly source
-
-
-
-
+An over-engineered linux tool to convert sn Atari 8-bit font to BASIC, C, and Assembly source.
 
 atf2code
 
