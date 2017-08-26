@@ -1,4 +1,4 @@
-CSET=$9000 
+CSET=$9000  
 ; Page 0xE0.  Chars 0 to 31 -- Symbols, numbers
   *=CSET
 ; Char $00: SPACE  
